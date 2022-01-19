@@ -4,6 +4,33 @@
 
 }
 
+
+/*--------------------------------------------------------------
+# HOME
+--------------------------------------------------------------*/
+.features .row + .row {
+  margin-top: 100px;
+}
+.features h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.features ul {
+  list-style: none;
+  padding: 0;
+}
+.features ul li {
+  padding-bottom: 10px;
+}
+.features ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #68A4C4;
+}
+.features p:last-child {
+  margin-bottom: 0;
+}
+
 /* Nosotros */
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
@@ -48,6 +75,8 @@
 
 /* Contacto form */
 
+ 
+ 
 .contact-clean {
     background:#f1f7fc;
     padding:80px 0;
@@ -64,6 +93,7 @@
     max-width:480px;
     width:90%;
     margin:0 auto;
+    background-image: url("../images/caffecontacto.jpg");
     background-color:#ffffff;
     padding:40px;
     border-radius:4px;
