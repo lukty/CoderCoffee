@@ -1,0 +1,155 @@
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "tahoma";
+  font-weight: bold;
+}
+
+/* variables */
+.col-lg-6 h1 h2 {
+  color: blue;
+}
+
+.col-lg-6 p {
+  color: yellow;
+  font-size: 20px;
+}
+
+.texto {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(yellow));
+  background: linear-gradient(to bottom, black, yellow);
+}
+
+.texto__encabezado {
+  color: yellow;
+}
+
+.texto__parrafo {
+  font-size: 20px;
+}
+
+.texto__parrafo--color {
+  color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+  .texto__parrafo--color {
+    color: yellow;
+  }
+}
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "tahoma";
+  font-weight: bold;
+}
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "tahoma";
+  font-weight: bold;
+}
+
+/* variables */
+.col-lg-6 h1 {
+  color: blue;
+}
+
+.col-lg-6 p {
+  color: yellow;
+  font-size: 20px;
+}
+
+.texto {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(yellow));
+  background: linear-gradient(to bottom, black, yellow);
+}
+
+.texto__encabezado {
+  color: yellow;
+}
+
+.texto__parrafo {
+  font-size: 20px;
+}
+
+.texto__parrafo--color {
+  color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+  .texto__parrafo--color {
+    color: yellow;
+  }
+}
+
+.titulo {
+  text-align: center;
+  padding: 50px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .titulo__principal {
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .titulo__principal {
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+
+.titulo__principal--color {
+  color: blue;
+}
+
+.col-lg-6 p {
+  font-size: 20px;
+  font-family: "tahoma";
+  font-weight: bold;
+}
+
+/* variables */
+.col-lg-6 h1 {
+  color: blue;
+}
+
+.col-lg-6 p {
+  color: yellow;
+  font-size: 20px;
+}
+
+.texto {
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(yellow));
+  background: linear-gradient(to bottom, black, yellow);
+}
+
+.texto__encabezado {
+  color: yellow;
+}
+
+.texto__parrafo {
+  font-size: 20px;
+}
+
+.texto__parrafo--color {
+  color: blue;
+}
+
+@media only screen and (max-width: 768px) {
+  .texto__parrafo--color {
+    color: yellow;
+  }
+}
+
+.col-lg-12, .col-xs-12, .col-lg-4, .container-fluid, .row {
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: blue !important;
+}
+/*# sourceMappingURL=styles.css.map */
