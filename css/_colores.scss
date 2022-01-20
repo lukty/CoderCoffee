@@ -1,0 +1,33 @@
+@import "fuentes";
+
+/* variables */
+$gris:rgb(99, 99, 182);
+$negro:rgb(151, 7, 7);
+$amarillo:rgb(199, 91, 29);
+
+
+.col-lg-6{
+	h1{
+	 color:$azul;
+	}
+	p{
+	color:$amarillo;
+	font-size:$pDesktop;
+	}
+} 
+
+.texto{
+	background:linear-gradient(to bottom, black, rgb(255, 174, 0));
+	&__encabezado{
+		color:$amarillo;
+	}
+	&__parrafo{
+		font-size:20px;
+		&--color{
+		color:$azul;
+		 @media only screen and (max-width:768px){
+		color:$amarillo;
+		}
+		}
+	}
+}
