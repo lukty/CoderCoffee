@@ -4,7 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ======= Mi Css   ======= -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- ======= SASS   ======= -->
+
+    <link rel="stylesheet" href="./scss/main.css">
+
+    <!-- ======= BT   ======= -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -12,7 +19,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
           <img class="logoNav" src="./images/logo.png">
@@ -46,46 +53,65 @@
 
 
     <!-- ======= Home   ======= -->
+
+
+    
     <section class="features bg-secondary">
       <div class="container">
 
-        <div class="section-title">
-          <h2 class="text-center">Productos</h2>
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5">
+            <h3>Cafe de especialidad.</h3>
+            <img src="./images/vaso-con-granos-de-cafe.jpg" class="img-fluid img-thumbnail" alt="">
+          </div>
+          <div class="col-md-7 pt-4">
+            
+            <p>
+              Nuestro Cafe se cultiva de forma responsable, asegurandonos que cada parte del proceso, tanto el producto, como las personas que lo hacen  posible, se traten de forma justa.
+              Tostamos nuestro café, hacemos un blend Colombia~Brasil; Hoy somos la unica cafeteria que tuesta café en el departamento de Colonia
+            </p>
+          </div>
+        </div>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-md-5 order-1 order-md-2">
+            <h3>Panificados y mas</h3>
+            <img src="./images/home-carro1.png" class="img-fluid img-thumbnail" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1">
+            
+            <p>
+              Elaboramos todos nuestros productos; En su mayoria con ingredientes locales, sin quimicos o conservantes agregados.
+              Contamos con recetas que hemos aprendido desde la experiencia de haber trabajado en diferentes cocinas, de diferentes culturas.
+
+            </p>
+          </div>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5">
-            <img src="./images/home-carro3.png" class="img-fluid rounded-start" alt="">
+            <h3>Tostamos nuestro Café</h3>
+            <img src="./images/home-carro3.png" class="img-fluid img-thumbnail" alt="">
           </div>
           <div class="col-md-7 pt-4">
-            <h3>Calidad.</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia neque sed optio quos maiores nostrum ea repellendus eligendi officiis perspiciatis libero porro aliquam illum similique magnam non, perferendis beatae natus dolores nam corporis sequi voluptatibus accusamus. Dolor facilis provident quidem delectus fuga fugiat temporibus odio cumque cum. Deserunt veniam maxime vero similique odio aspernatur saepe nulla repudiandae ipsam quasi sequi distinctio nostrum, deleniti labore natus unde exercitationem non illum corrupti tenetur veritatis dolores vel atque. Consequatur autem eaque dolore!
+            
+            <p>
+             Nuestra marca de café, tostado por nosotros mismos.
+            Hoy trabajamos con cafes de especialidad importados de Colombia y Brasil.
             </p>
           </div>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-md-5 order-1 order-md-2">
-            <img src="./images/home-carro1.png" class="img-fluid rounded-start" alt="">
+            <h3>Experiencia</h3>
+            <img src="./images/cosechacafe1.jpg" class="img-fluid img-thumbnail" alt="">
           </div>
           <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Cosecha</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia neque sed optio quos maiores nostrum ea repellendus eligendi officiis perspiciatis libero porro aliquam illum similique magnam non, perferendis beatae natus dolores nam corporis sequi voluptatibus accusamus. Dolor facilis provident quidem delectus fuga fugiat temporibus odio cumque cum. Deserunt veniam maxime vero similique odio aspernatur saepe nulla repudiandae ipsam quasi sequi distinctio nostrum, deleniti labore natus unde exercitationem non illum corrupti tenetur veritatis dolores vel atque. Consequatur autem eaque dolore!
-            </p>
-            </p>
-          </div>
-        </div>
-
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-5 order-1 order-md-2">
-            <img src="./images/envios.jpg" class="img-fluid rounded-start" alt="">
-          </div>
-          <div class="col-md-7 pt-5 order-2 order-md-1">
-            <h3>Envios a todo el país</h3>
-            <p class="fst-italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia neque sed optio quos maiores nostrum ea repellendus eligendi officiis perspiciatis libero porro aliquam illum similique magnam non, perferendis beatae natus dolores nam corporis sequi voluptatibus accusamus. Dolor facilis provident quidem delectus fuga fugiat temporibus odio cumque cum. Deserunt veniam maxime vero similique odio aspernatur saepe nulla repudiandae ipsam quasi sequi distinctio nostrum, deleniti labore natus unde exercitationem non illum corrupti tenetur veritatis dolores vel atque. Consequatur autem eaque dolore!
+           
+            <p>
+              Los que formamos parte del equipo Colonia Sandwich Coffee Shop,  Somos baristas formados de la Specialty Coffee Asociation 
+              Pero lo mas importante es que seguimos creciendo, aprendiendo y compartiendo, la cultura del cafe.
             </p>
           </div>
         </div>
@@ -98,7 +124,7 @@
 
 
     <!-- Footer -->
-    <div class="footer-basic bg-info">
+    <div class="footer-basic bg-dark">
       <footer>
         <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
         <ul class="list-inline">

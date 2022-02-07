@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+       <!-- ======= Mi Css   ======= -->
+       <link rel="stylesheet" href="../css/style.css">
+       <!-- ======= SASS   ======= -->
+   
+       <link rel="stylesheet" href="../scss/main.css">
+       
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
@@ -12,7 +17,7 @@
   </head>
   <body id="page-top">
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="../index.html">
           <img class="logoNav" src="../images/logo.png">
@@ -42,16 +47,17 @@
         </div>
       </nav>
     </header>
-    <div class="contact-clean">
+
+    <div class="contact-clean bg-secondary">
       <form method="post">
-        <h2 class="text-center">Contacto</h2>
+        <h1 class="text-center">Contacto</h1>
         <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Nombre"></div>
         <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email"><small class="form-text text-danger">Please enter a correct email address.</small></div>
         <div class="form-group"><textarea class="form-control" rows="14" name="message" placeholder="Mensaje"></textarea></div>
         <div class="form-group"><button class="btn btn-primary" type="submit">Enviar </button></div>
       </form>
     </div>
-    <div class="footer-basic bg-info">
+    <div class="footer-basic bg-dark">
       <footer>
         <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
         <ul class="list-inline">

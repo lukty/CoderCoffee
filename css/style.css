@@ -8,40 +8,19 @@
 /*--------------------------------------------------------------
 # HOME
 --------------------------------------------------------------*/
-.features .row + .row {
-  margin-top: 100px;
-}
-.features h3 {
-  font-weight: 400;
-  font-size: 24px;
-}
-.features ul {
-  list-style: none;
-  padding: 0;
-}
-.features ul li {
-  padding-bottom: 10px;
-}
-.features ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #68A4C4;
-}
-.features p:last-child {
-  margin-bottom: 0;
-}
+
 
 /* Nosotros */
 
 @import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
 .team4 {
   font-family: "Montserrat", sans-serif;
-	color: #8d97ad;
+	color: #000103;
   font-weight: 300;
 }
 
-.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
-  color: #3e4555;
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6  {
+  color: #000207;
 }
 
 .team4 .font-weight-medium {
@@ -54,13 +33,13 @@
 }
 
 .team4 .subtitle {
-    color: #8d97ad;
+    color: #000207;
     line-height: 24px;
 		font-size: 13px;
 }
 
-.team4 ul li a {
-  color: #8d97ad;
+.team4 ul li a  {
+  color: #000308;
   padding-right: 15px;
   -webkit-transition: 0.1s ease-in;
   -o-transition: 0.1s ease-in;
@@ -97,7 +76,7 @@
     background-color:#ffffff;
     padding:40px;
     border-radius:4px;
-    color:#505e6c;
+    color:#070707;
     box-shadow:1px 1px 5px rgba(0,0,0,0.1);
 }
   
@@ -176,7 +155,7 @@
 }
   
   .projects-horizontal p {
-    color:#7d8285;
+    color:#00070c;
 }
   
 .projects-horizontal h2 {
@@ -237,7 +216,7 @@
     
   
 
-
+/* Producto */ 
 
 
 
@@ -247,7 +226,7 @@
 .footer-basic {
     padding:40px 0;
     background-color:#ffffff;
-    color:#4b4c4d;
+    color:#0f0f0f;
   }
   
   .footer-basic ul {
